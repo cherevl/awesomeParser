@@ -1,0 +1,1 @@
+C:\Users\chere\IdeaProjects\awesomeParser\build\classes\kotlin\main\com\awesome\parser\Currencylist.class;C:\Users\chere\IdeaProjects\awesomeParser\build\classes\kotlin\main\com\awesome\parser\Main.class;C:\Users\chere\IdeaProjects\awesomeParser\build\classes\kotlin\main\com\awesome\parser\jsonData.class

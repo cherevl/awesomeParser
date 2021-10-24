@@ -1,0 +1,24 @@
+plugins {
+    id 'org.jetbrains.kotlin.jvm' version '1.5.10'
+    id 'application'
+}
+
+group 'com.awesome'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+mainClassName = 'com.awesome.parser.Main'
+dependencies {
+    implementation 'org.jetbrains.kotlin:kotlin-stdlib:1.5.31'
+    implementation 'com.github.kittinunf.fuel:fuel:<latest-version>'
+    implementation 'com.github.kittinunf.fuel:<package>:<latest-version>'
+
+}
+jar {
+    manifest {
+        attributes 'Main-Class': mainClassName
+    }
+}
